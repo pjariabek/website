@@ -73,7 +73,7 @@ theme = "hugo-serif-theme"
     url = "/contact/"
       weight = 2
 
-  [menu.footer.privacy]]
+  [menu.footer]]
       name = "Privacy Policy"
       url = "/about/privacy"
-      weight = 5
+      weight = 3
