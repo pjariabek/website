@@ -52,7 +52,7 @@ theme = "hugo-serif-theme"
       url = "/about/"
       weight = 3
 
-   [[menu.main.privacy]]
+   [[menu.main.about.privacy]]
       name = "Privacy Policy"
       url = "/about/privacy"
       weight = 4
