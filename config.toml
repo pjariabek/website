@@ -38,24 +38,19 @@ theme = "hugo-serif-theme"
 [menu]
   # Main Menu
   [[menu.main]]
-    name = "Services"
-    url = "/services/"
+    name = "My Books"
+    url = "/my-books/"
       weight = 1
 
   [[menu.main]]
-      name = "Team"
-      url = "/team/"
+      name = "My Work"
+      url = "/my-work/"
       weight = 2
 
   [[menu.main]]
       name = "About"
-      url = "/about/"
+      url = "/about/about"
       weight = 3
-
-   [[menu.main.about.privacy]]
-      name = "Privacy Policy"
-      url = "/about/privacy"
-      weight = 5
 
   [[menu.main]]
       name = "Contact"
@@ -72,8 +67,8 @@ theme = "hugo-serif-theme"
     name = "Contact"
     url = "/contact/"
       weight = 2
-
-  [menu.footer]]
+ 
+  [[menu.footer]]
       name = "Privacy Policy"
       url = "/about/privacy"
       weight = 3
