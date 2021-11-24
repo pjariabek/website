@@ -11,7 +11,7 @@ theme = "hugo-serif-theme"
     
 [params]
   # In most cases you will only want to use either one of these. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
-  google_analytics_id = ""
+  google_analytics_id = "UA-24847569-1"
   google_tag_manager_id = ""
 
   [params.homepage]
@@ -52,10 +52,15 @@ theme = "hugo-serif-theme"
       url = "/about/"
       weight = 3
 
+   [[menu.main.privacy]]
+      name = "Privacy Policy"
+      url = "/about/privacy"
+      weight = 4
+
   [[menu.main]]
       name = "Contact"
       url = "/contact/"
-      weight = 4
+      weight = 5
 
   # Footer Menu
   [[menu.footer]]
